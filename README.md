@@ -1,5 +1,5 @@
 # Backend part written in Spring Boot using Java 11
-Can be started using Intellij IDE
+Can be opened as Maven project
 Test written for Service and Controller layers
 
 Frontend part written in Angular using node version 17
