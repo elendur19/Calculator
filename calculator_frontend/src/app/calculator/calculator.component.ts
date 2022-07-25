@@ -21,6 +21,12 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  resetCalculator() {
+    this.expression.expression = "";
+    this.errorHidden = true;
+    this.invalidExpression = true;
+  }
+
   calculateExpression() {
     //console.log("Expression ----> " + this.expression.expression);
     this.calculatorService.calculate(this.expression).subscribe(result => {
