@@ -2,13 +2,10 @@ package com.example.calculator_backend.calculator.service;
 
 import com.example.calculator_backend.calculator.exception.MathExpressionException;
 import com.example.calculator_backend.calculator.model.ExpressionRequest;
-import com.example.calculator_backend.util.MathExpressionTree;
 import com.example.calculator_backend.util.Node;
 import com.example.calculator_backend.util.Operator;
 import com.example.calculator_backend.util.Postfix;
-import com.sun.source.tree.ExpressionTree;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.Stack;
