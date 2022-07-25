@@ -1,6 +1,6 @@
 ## Staring backend
 
-Before starting backend make sure you are correct versions of Java and Maven are used.
+Before starting backend make sure correct versions of Java and Maven are used.
 
 ```bash
 mvn -v
@@ -20,8 +20,8 @@ Make sure backend is running and responding:
 curl -X POST -H 'Content-Type: application/json' --data '{"expression":"2+4*2"}' http://localhost:8080/api/calculate
 ```
 
-Frontend part written in Angular using node version 17
-Angular can be started from visual studio code using "ng serve --open"
+Frontend part is written in Angular using node version 17
+Angular can be started from Visual studio code using "ng serve --open"
 
 
 # Main app window
