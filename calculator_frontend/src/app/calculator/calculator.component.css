@@ -1,0 +1,18 @@
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.border-error {
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: red;
+}
+
+.error-box {
+    display: flex;
+    justify-content: center;
+}
