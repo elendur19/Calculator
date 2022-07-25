@@ -6,6 +6,6 @@ Frontend part written in Angular using node version 17
 Angular can be started from visual studio code using "ng serve --open"
 
 
-#main app window
+# Main app window
 For entered math expression there is result shown after clicking "=" button
 if entered expression is invalid, error will be shown
